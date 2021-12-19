@@ -1,7 +1,7 @@
 /* Stylesheet */
 
-* {
-    font-family:'Roboto' sans-serif;
+.header {
+    font:'Roboto' sans-serif;
 }
 /* Resize .body img later, here now for managability */
 .cat img {
@@ -12,13 +12,20 @@
 
 .banner {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header,
 .footer {
+    display: flex;
+    justify-items: space-between;
+    flex-direction: column;
     background-color: #1F2937;
     color: #F9FaF8;
+    padding: 0 160px;
+}
+
+.footer {
     text-align: center;
 }
 
@@ -35,4 +42,26 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    margin: 40px 0 40px;
+}
+
+.hero .container {
+    justify-content: flex-start;
+}
+
+.hero img {
+    max-width: 400px;
+    padding: 0 0 0 24px;
+    /* Could use flex to shrink, found easier fix though 
+    * flex: 0, 1, auto; (??) */
+}
+
+.hero button {
+    justify-self: flex-start;
+    background-color: #3882F6;
+    color:hsl(220, 13%, 91%);
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
 }
