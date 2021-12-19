@@ -1,0 +1,26 @@
+/* Stylesheet */
+
+* {
+    font-family:'Roboto' sans-serif;
+}
+
+.logo {
+    height: 200px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    color: 
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FaF8
+}
+
+.nav-links {
+    text-decoration: none;
+    align-items: baseline;
+    gap: 16px;
+}
