@@ -3,8 +3,8 @@
 * {
     font-family:'Roboto' sans-serif;
 }
-/* Resize img later, here now for managability */
-.body img {
+/* Resize .body img later, here now for managability */
+.cat img {
     border: 5px solid red;
     max-width: 50px;
     max-height: 50px;
@@ -18,7 +18,8 @@
 .header,
 .footer {
     background-color: #1F2937;
-    color: #F9FaF8
+    color: #F9FaF8;
+    text-align: center;
 }
 
 .nav-links {
@@ -32,3 +33,6 @@ a {
     text-decoration: none;
 }
 
+.hero {
+    display: flex;
+}
