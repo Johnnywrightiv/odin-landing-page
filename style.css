@@ -63,5 +63,18 @@ a {
     color:hsl(220, 13%, 91%);
     border-radius: 10px;
     border: none;
-    padding: 12px;
+    padding: 12px 24px;
+    font-weight: 600;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: "extra-bold";
+}
+
+.hero .container p,
+.nav-links {
+    font-size: 18px;
+    color: hsl(220, 13%, 91%)
 }
