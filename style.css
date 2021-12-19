@@ -3,12 +3,12 @@
 * {
     font-family: "Roboto", sans-serif;
 }
-/* Resize .body img later, here now for managability */
-.cat img {
+
+/*.cat img {
     border: 5px solid red;
     max-width: 50px;
     max-height: 50px;
-}
+}*/
 
 .banner {
     display: flex;
@@ -86,7 +86,8 @@ h1 {
 h2 {
     color: #1F2937;
     font-size: 36px;
-    font-weight: "extra-bold"
+    font-weight: "extra-bold";
+    text-align: center;
 }
 
 .hero .container p,
@@ -115,13 +116,22 @@ h2 {
 
 .image-blocks {
     display: flex;
-
+    justify-content: space-between;
+    text-align: center;
+    margin: 60px 240px;
 }
 
+.cat img {
+    max-height: 150px;
+    border: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
 
-
-
-
+.cat {
+    max-width: 150px;
+}
 
 .card {
     display: flex;
