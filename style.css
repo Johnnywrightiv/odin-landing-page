@@ -57,9 +57,13 @@ a {
     * flex: 0, 1, auto; (??) */
 }
 
+.hero button,
+.card {
+    background-color: #3882F6;
+}
+
 .hero button {
     justify-self: flex-start;
-    background-color: #3882F6;
     color:hsl(220, 13%, 91%);
     border-radius: 10px;
     border: none;
@@ -73,8 +77,23 @@ h1 {
     font-weight: "extra-bold";
 }
 
+h2 {
+    font: 36px "extra-bold" #773355;
+}
+
 .hero .container p,
 .nav-links {
     font-size: 18px;
     color: hsl(220, 13%, 91%)
+}
+
+.quote {
+    background-color: hsl(220, 13%, 91%);
+    font: 356px #1F2937;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 700;
+    text-align: right;
 }
