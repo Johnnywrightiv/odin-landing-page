@@ -3,6 +3,12 @@
 * {
     font-family:'Roboto' sans-serif;
 }
+/* Resize img later, here now for managability */
+.body img {
+    border: 5px solid red;
+    max-width: 50px;
+    max-height: 50px;
+}
 
 .banner {
     display: flex;
@@ -25,3 +31,4 @@ a {
     color: hsl(220, 13%, 91%);
     text-decoration: none;
 }
+
